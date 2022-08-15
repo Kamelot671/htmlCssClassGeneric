@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Davy VEDEL">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/generic.css">
+        <link rel="stylesheet" href="css/specific.css">
+        <title>Barber</title>
+
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div id="block-header" class="bg-beige">
+                    <div class="nav-header d-flex w-90 justify-between align-center m-auto">
+                        <img class="img-logo" src="image/logo-barber.png" alt="a logo of cutting bear">
+                        <div class="pos-relative">
+                            <input class="bg-beige" type="search">
+                            <button onclick="validate()">
+                                <i class="pos-absolute loop-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-nav nav-footer box-shadow-nav box-nav bg-beige">
+                    <div class="d-flex w-90 justify-between align-center m-auto">
+                        <ul>
+                            <li class="d-inline-block"><a class="" href="#">Accueil</a></li>
+                            <li class="d-inline-block"><a class="" href="#block-para">Produit</a></li>
+                            <li class="d-inline-block"><a class="" href="#block-img">Tarif</a></li>
+                            <li class="d-inline-block"><a class="" href="#">Contact</a></li>
+                        </ul>
+                        <div class="pos-relative box-mustache-img ">
+                            <img   class="mustache-img pos-absolute " src="image/mustache.png" alt="a black mustache to cut for a expert barber in its job">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="d-flex justify-center align-center bandeau">
+                <button class="btn bg-blue box-shadow-button">PRENDRE RENDEZ VOUS</button>
+            </div>
+        </header>
+
+        <main>
+            <section id="block-para">
+                <div class="w-90 m-auto">
+                    <h1 class="title-section">Présentation__________________________</h1>
+                    <div class="area-para">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maiores autem iste aliquam? Nulla nesciunt sint in impedit aliquid molestias, eligendi voluptatem ducimus alias enim soluta nobis distinctio obcaecati officiis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ab facilis illo perferendis, earum libero esse hic accusamus dolore omnis incidunt veritatis cumque eos ipsam repellendus exercitationem voluptatum praesentium est.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nemo ducimus aliquid minima iure illum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, corrupti?</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="block-img">
+                <div class="w-90 m-auto">
+                    <h1 class="title-section">Nos Services__________________________</h1>
+                    <div id="area-img" class="row-cards">
+                        <div class="card pos-relative">
+                            <img class="img-card" src="image/Bear.jpeg" alt="a man whose bear was razed">
+                            <div class="p-1em card-description text-center">
+                                Un vrai rasage à l'ancienne avec des produits et des accessoires à l'ancienne
+                                <button  class="pos-absolute btn-card bg-blue box-shadow-button">TARIF</button>
+                            </div>
+                        </div>
+                        <div class="card pos-relative">
+                            <img class="img-card" src="image/entretien.jpg" alt="a man whose bear was razed">
+                            <div class="p-1em card-description text-center">
+                                Une taille de barbe réalisée aux ciseaux avec du matériel de haute qualité
+                                <button class="pos-absolute btn-card bg-blue box-shadow-button">TARIF</button>
+                            </div>
+                        </div>
+                        <div class="card pos-relative">
+                            <img class="img-card" src="image/health.jpeg" alt="a man whose bear was razed">
+                            <div class="p-1em card-description text-center">
+                                Entretien de la barbe
+                                <button  class="pos-absolute btn-card bg-blue box-shadow-button">TARIF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="bg-beige">
+                <div class="w-90 m-auto d-flex justify-between align-center">
+                    <img class="img-logo" src="image/logo-barber.png" alt="a logo with a barber">
+                    <ul>
+                        <li class="link"><a href="#">Accueil</a></li>
+                        <li class="link"><a href="#">Produits</a></li>
+                        <li class="link"><a href="#">Tarif</a></li>
+                        <li class="link"><a href="#">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li class="link">Données personnelles et cookies</li>
+                        <li class="link">Mentions légales</li>
+                        <li class="link">Conditions Générales</li>
+                    </ul>
+                    <div>
+                        <p class="para-footer">Suivez nous</p>
+                        <ul>
+                            <li class="link d-inline-block"><i class="social-icon-size-50 fa-brands fa-twitter-square"></i></li>
+                            <li class="link d-inline-block"><i class="social-icon-size-50 social-icon-blue fa-brands fa-instagram-square"></i></li>
+                            <li class="link d-inline-block"><i class="social-icon-size-50 social-icon-blue fa-brands fa-facebook"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div  class="bg-blue text-center copy">Copyright 2020 | tous droits réservés</div>
+           
+        </footer>
+        
+        <script>
+            /*content added not answered initially in the project*/
+            function validate() {
+                alert("pending ressearch");
+            }
+        </script>
+    </body>
+
+</html>
+
+<!--#B7922B jaune des cadres-->
+
+
+

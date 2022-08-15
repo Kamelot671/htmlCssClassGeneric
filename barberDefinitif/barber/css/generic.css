@@ -1,0 +1,227 @@
+/*all the generic class are ordered alphbetically by thema 
+
+/*generic class*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* background color*/
+/*set the background color of a html element to a specific blue teal*/
+.bg-blue{
+    background-color: #005F71;
+}
+
+/*set the background color of a html element to a specific light yellow color*/
+.bg-beige{
+    background-color:  #F5F0DA;
+}
+
+/*set the background color of a html element to a specific gold color*/
+.bg-yellow{
+    background-color: #B7922B ;
+}
+
+/*display :  flex and properties */
+/******display******/
+
+/*enable a element html which is inline to behave as a block element 
+it takes up as much width as available.*/
+.d-block{
+    display: block;
+}
+
+/*enable to display html elmement aside each other on the same line*/
+.d-flex{
+    display: flex;
+}
+
+/*enable a element html which is inline to behave as a block element 
+it takes up as much width as available and it is in the same row and not below*/
+.d-inline-block{
+    display: inline-block;
+}
+
+/******properties binded to display : flex*****/
+/*enable html element to be displayed below each other on the same column*/
+.flex-column{
+    flex-direction: column;
+}
+/*enable html element to be displayed on the same line aside each other*/
+.flex-row{
+    flex-direction: row;
+}
+
+
+/*The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container.*/
+.grow-1{
+    flex-grow: 1;
+}
+
+/*******display with flex horizontally the elements******/
+/*enable to display all html elements on each side on the same line by letting 
+an available space between the edge of the line and the element*/
+/* in space-around, only the inner items will have equal spacing in between
+each other. The first and last item will only be allocated half the spacing.*/
+.justify-around{
+    justify-content: space-around;
+}
+
+/*enable to display all html elements on each side on the same line*/
+.justify-between{
+    justify-content: space-between;
+}
+
+/*enable to center horizontally all elements html after using a flex position*/
+.justify-center{
+    justify-content: center;
+}
+
+/*the difference between space-evenly and space-around it is : 
+in space-around, only the inner items will have equal spacing in between each other.
+The first and last item will only be allocated half the spacing.*/
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+/*enable to place all the elements html on the same line at the end of the line*/
+.justify-flexend {
+    justify-content: flex-end;
+}
+
+/*******properties to position vertically the html elements which are displayed flex
+ and using the property flex-direction with the value column****/
+/*enable to center vertically all html elements*/
+.align-center{
+    align-items: center;
+}
+
+/*position at the right edge of the row for one targeted element html*/
+.align-self-right{
+    align-self: flex-end;
+}
+
+/******width******/
+/*set a width of 33% for a html element for all the sides*/
+.w-30{
+    width: 30%;
+}
+
+/*set a width of 90% for a html element for all the sides*/
+.w-90{
+    width: 90%;
+}
+
+
+/******margin and padding******/
+/*****relative to padding****/
+/*set all the four padding for an html element automatically by the navigator*/
+.p-auto{
+    padding: auto;
+}
+
+/*set the the right and left padding automatically by the navigator*/
+.px-auto{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/*set the the top and bottom padding automatically by the navigator*/
+.py-auto{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+/*set manually the padding to 1em for all the four direction top, right, bottom, left*/
+.p-1em{
+    padding: 1em;
+}
+
+/******relative to margin*****/
+/*set  all the four margin for an html element automatically by the navigator*/
+.m-auto{
+    margin: auto;
+}
+
+/*set the the left and right margin automatically by the navigator*/
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*set the top and bottom margin automatically by the navigator*/
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/***properties which target the position of the text***/
+/*enable to center a html element*/
+.text-center{
+    text-align: center;
+}
+
+.text-right {
+    text-align : right;
+}
+
+/******i decide not to erase this class because we can use them in an other project
+which calls them not more time in this case we can use it ******/
+/*enable to remove the default decoration on a html element particularly a tag*/
+/*.text-deco-none{
+    text-decoration: none;
+}*/
+
+/*enable to remove the default symbol on a list*/
+/*.list-style-none{
+    list-style-type: none;
+}*/
+
+/*customize logo and icon*/
+/*customize the size of our social network symbol*/
+.img-social-network{
+    width: 35px;
+    height: auto;
+}
+
+/*customize the size of our image logo*/
+.img-logo{
+    width: 150px;
+    height: auto;
+}
+
+/*set the color of social icon to blue*/
+.social-icon-blue {
+    color : blue
+}
+
+/*set the size of the icon*/
+.social-icon-size-50 {
+    font-size : 50px;
+}
+
+/*shadow*/
+/*put a specific shadow on our buttons*/
+.box-shadow-button{
+    box-shadow: 3px 3px 3px black;
+}
+
+/*put a specific shadow on our nav block*/
+.box-shadow-nav{
+    box-shadow: 5px 2px 1px grey ;
+}
+
+/*position*/
+/*set a position absolute to our child html element*/
+.pos-absolute {
+    position : absolute;
+}
+
+/*set a position relative to our html parent*/
+.pos-relative {
+    position : relative;
+}
+
+
+

@@ -1,0 +1,206 @@
+/*specific class*/
+/*all the selectors are odered by following my page html*/
+
+
+    /*HEADER*/
+
+        /*****beginning of the area for header logo*****/
+            /*for creating a shadow effect*/
+            #block-header {
+                border-bottom : 1px inset  black;
+                box-shadow : 4px 4px 4px rgba(0, 0, 0, 0.4);
+            }
+
+            /*for customizing the search field*/
+            input {
+                height : 50px;
+                width : 400px;
+                border : 1px solid black;
+                border-radius : 10px;
+            }
+
+            /*icon of the loop in the search field*/
+            .loop-icon {
+                right : 10px;
+                top : 14px;
+                text-align : center;
+                font-size : 30px;
+            }
+        /*****end of the area of header logo*****/
+
+        /*****beginning of the area for navbar and tiny image of mustache*****/
+            /*customizing */
+            .box-nav {
+                height : 50px;
+                /*put the same way the box-shadow but by using :before*/
+                /* border-top: 4px inset black;*/
+                /*position: relative;
+                box-shadow : inset 4px 10px 4px rgba(0, 0, 0, 0.4);*/
+            }
+            /*put the same way the box-shadow but by using :before*/
+            /*.box-nav:before {
+                z-index: -1;
+                
+            }*/
+
+            /*customize all the li and a tags of the page*/
+            li {
+                margin-right : 45px;
+                font-family :  Times, Georgia, serif;
+                list-style-type : none;
+            }
+
+            a {
+                color : black;
+                font-size : 1.9em;
+                font-weight : bolder;
+                text-decoration : none;
+            }
+
+            /*content added not answered initially just to dynamize our page and enhance the value of ux experience*/
+            a:hover {
+                color : salmon;
+            }
+
+            .bg-nav {
+                margin-top : 30px;
+            }
+
+            /*box which content the image of mustache*/
+            .box-mustache-img {
+                height : 50px;
+                width : 50px;
+            
+            }
+
+            /*image png of a mustache*/
+            .mustache-img {
+                right : 110px;
+                top : -3px;
+            }
+        /*****end of the area for navbar and tiny image of mustache*****/
+
+        /*****beginning of the area of the background-image with the button*****/
+            /*background-image*/
+            .bandeau {
+                background : no-repeat url(../image/bande.jpg) center/cover;
+                height : 450px;
+                border-top : 1px solid  black;
+                box-shadow : inset 4px 10px 4px rgba(0, 0, 0, 0.4);
+            }
+
+            /*the button which says "prendre rendez-vous"*/
+            .btn {
+                height : 50px;
+                width : 400px;
+                color : white;
+                font-size : 1.7em;
+            }
+
+            /*content added not answered initially just to dynamize our page and enhance the value of ux experience*/
+            .btn:hover {
+                background-color : salmon;
+            }
+        /*****end of the area of the background-image with the button*****/
+
+
+    /*MAIN with two sections*/
+
+        /*****beginning of section para wich begins by the text presentation*****/
+
+            /*block wich contains all the paragraphs*/
+            #block-para {
+                margin-top : 40px;
+                word-spacing : 3px;
+                line-height : 1.3em;
+            }
+
+            /*customize the paragraphs*/
+            .area-para {
+                font-family : Arial, Helvetica, sans-serif;
+                text-align : center;
+                margin-top : 25px;
+            }
+        /*****end of section para*****/
+
+        /*****beginning of the section "Nos services"*****/
+            /*customize the title : "Nos services*/
+            .title-section {
+                font-size : 30px;
+            }
+
+            /*****all about cards*****/
+            /*customize the div main parent which contains all the elements of this section*/
+            #block-img {
+                margin-top : 28px;
+                height : 650px;
+            }
+
+            /*customize the div parent which contains all the three cards*/
+            .row-cards {
+                display : flex;
+                justify-content : space-between;
+            }
+
+            #area-img {
+                margin-top : 25px;
+            }
+
+            /*customize the golden border which is around each cards*/
+            .card {
+                border : 3px solid #B7922B;
+                width : 30%;
+            }
+
+            /*customize the image of each cards*/
+            .img-card {
+                width : 100%;
+                padding : 5px;
+                height : 280px;
+            }
+
+            /*customize the sentence of each cards*/
+            .card-description {
+                font-size : 22px;
+            }
+
+            /*customize the button of each cards*/
+            .block-button {
+                text-align : right;
+            
+            }
+
+            .btn-card {
+                color : white;
+                /* width : 70px; */
+                font-size : 1.3em;
+                bottom : 10px;
+                right : 10px;
+            }
+
+            /*content added not answered initially just to dynamize our page and enhance the value of ux experience*/
+            .btn-card:hover {
+                background-color : salmon;
+            }
+        /*****end of section Nos services*****/
+
+
+    /*FOOTER*/
+        /*****beginnning of the block which contains allsocial-icon*****/
+            .link {
+                font-size : 12px;
+            }
+            /*customize the sentence in the footer*/
+            #para-footer {
+                font-size : 24px;
+            }
+        /*****end of the block which contains all social-icons*****/
+
+        /*****beginning of the block which contains the copyright*****/
+            .copy {
+                padding : 30px 0;
+                color : white;
+            }
+        /*****end of the block which contains the copyright*****/
+
+
